@@ -1,0 +1,22 @@
+product_name,department,aisle,price,product_id
+Organic Bananas,Produce,Fruit,0.69,1
+Organic Strawberries,Produce,Fruit,4.99,2
+Organic Baby Spinach,Produce,Vegetables,3.99,3
+Organic Avocado,Produce,Fruit,1.99,4
+Organic Tomatoes,Produce,Vegetables,2.49,5
+Whole Milk,Dairy,Milk,3.99,6
+Butter,Dairy,Butter,4.49,7
+Greek Yogurt,Dairy,Yogurt,5.99,8
+Cheddar Cheese,Dairy,Cheese,6.99,9
+Basmati Rice,Pantry,Rice,8.99,10
+Whole Wheat Bread,Bakery,Bread,3.49,11
+Pasta,Pantry,Pasta,2.99,12
+Eggs,Dairy,Eggs,4.99,13
+Chicken Breast,Meat,Poultry,8.99,14
+Toor Dal,Pantry,Pulses,4.99,15
+Olive Oil,Pantry,Oils,9.99,16
+Sugar,Pantry,Baking,3.49,17
+Salt,Pantry,Spices,1.99,18
+Black Pepper,Pantry,Spices,4.99,19
+Orange Juice,Beverages,Juice,4.99,20
+Coffee,Beverages,Coffee,12.99,21
