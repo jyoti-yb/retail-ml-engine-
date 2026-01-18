@@ -1,0 +1,1964 @@
+[
+  {
+    "antecedents": [
+      "Dairy",
+      "Produce",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.9236641221374047,
+    "support": 0.0821174075330845,
+    "lift": 1.1029328071065363
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.9153605015673982,
+    "support": 0.0990838140481846,
+    "lift": 1.1703112356265175
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.9140893470790378,
+    "support": 0.09026128266033254,
+    "lift": 1.0914997187365982
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.9135135135135134,
+    "support": 0.11469290804207669,
+    "lift": 1.1679498153250865
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Produce",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.9097744360902257,
+    "support": 0.0821174075330845,
+    "lift": 1.1631693115652473
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Produce",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.902127659574468,
+    "support": 0.07193756362402443,
+    "lift": 1.0772164557398531
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.9003436426116838,
+    "support": 0.08890397013912453,
+    "lift": 1.1511118068445259
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8992805755395683,
+    "support": 0.08483203257550051,
+    "lift": 1.0738167974534474
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8975903614457831,
+    "support": 0.0505598914149983,
+    "lift": 1.0717985393763059
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8870558375634517,
+    "support": 0.23719036308109942,
+    "lift": 1.0592194300241056
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.884871550903901,
+    "support": 0.3155751611808619,
+    "lift": 1.0566112076636127
+  },
+  {
+    "antecedents": [
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8777327935222672,
+    "support": 0.3678316932473702,
+    "lift": 1.0480869297042632
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Bakery",
+      "Dairy"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8764705882352941,
+    "support": 0.0505598914149983,
+    "lift": 1.0907765302066772
+  },
+  {
+    "antecedents": [
+      "Meat"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8763250883392226,
+    "support": 0.2524601289446895,
+    "lift": 1.0905954541113552
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8741258741258742,
+    "support": 0.08483203257550051,
+    "lift": 1.117591735812994
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8731343283582089,
+    "support": 0.27790973871733965,
+    "lift": 1.042595974745398
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Produce",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8724279835390947,
+    "support": 0.07193756362402443,
+    "lift": 1.1154209403426083
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.87,
+    "support": 0.059043094672548355,
+    "lift": 1.0827238175675675
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8694992412746585,
+    "support": 0.19443501866304716,
+    "lift": 1.0821006182586226
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8639053254437871,
+    "support": 0.0990838140481846,
+    "lift": 1.0315757674565804
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.862162162162162,
+    "support": 0.10824567356633864,
+    "lift": 1.029494283586666
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8585858585858586,
+    "support": 0.05768578215134035,
+    "lift": 1.0252238757100993
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8579335793357933,
+    "support": 0.3155751611808619,
+    "lift": 1.096889482994613
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8567164179104478,
+    "support": 0.09738717339667459,
+    "lift": 1.0661922650262203
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8563218390804598,
+    "support": 0.0505598914149983,
+    "lift": 1.0948288328720672
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Pantry"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8562231759656652,
+    "support": 0.13539192399049882,
+    "lift": 1.0655784204268646
+  },
+  {
+    "antecedents": [
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8537946428571428,
+    "support": 0.25958601968103157,
+    "lift": 1.0915977494577007
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8537313432835821,
+    "support": 0.09704784526637258,
+    "lift": 1.0194271753066113
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8534798534798536,
+    "support": 0.23719036308109942,
+    "lift": 1.0911952833861729
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8519793459552496,
+    "support": 0.167967424499491,
+    "lift": 1.0602969309671118
+  },
+  {
+    "antecedents": [
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8510121457489878,
+    "support": 0.3566338649474041,
+    "lift": 1.0880402574933914
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8500000000000001,
+    "support": 0.05768578215134035,
+    "lift": 1.0867462039045555
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8496503496503496,
+    "support": 0.08245673566338649,
+    "lift": 1.0573984714609712
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Beverages",
+      "Dairy"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8479999999999999,
+    "support": 0.07193756362402443,
+    "lift": 1.0553445945945943
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8477366255144034,
+    "support": 0.06990159484221242,
+    "lift": 1.0550168223779337
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8466898954703832,
+    "support": 0.08245673566338649,
+    "lift": 1.0110190931731036
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8453237410071942,
+    "support": 0.07974211062097047,
+    "lift": 1.0520139631538012
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry"
+    ],
+    "confidence": 0.8446601941747572,
+    "support": 0.059043094672548355,
+    "lift": 1.008595458765401
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8425531914893617,
+    "support": 0.2015609093993892,
+    "lift": 1.0772252734573315
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8400852878464818,
+    "support": 0.2673905666779776,
+    "lift": 1.0740699970861527
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8383838383838383,
+    "support": 0.05632846963013234,
+    "lift": 1.043377184002184
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8338557993730408,
+    "support": 0.09026128266033254,
+    "lift": 1.037741993560959
+  },
+  {
+    "antecedents": [
+      "Produce",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Dairy"
+    ],
+    "confidence": 0.8316151202749141,
+    "support": 0.0821174075330845,
+    "lift": 1.2824540865777978
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8298507462686567,
+    "support": 0.09433322022395657,
+    "lift": 1.0609848803703825
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8297546012269938,
+    "support": 0.1835765184933831,
+    "lift": 1.0608619565362043
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Beverages",
+      "Dairy"
+    ],
+    "consequents": [
+      "Produce"
+    ],
+    "confidence": 0.8287671232876712,
+    "support": 0.0821174075330845,
+    "lift": 1.0314090845982968
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8279773156899811,
+    "support": 0.1486257210722769,
+    "lift": 1.0585896526413772
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8188153310104529,
+    "support": 0.07974211062097047,
+    "lift": 1.0468758266758371
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.814814814814815,
+    "support": 0.06718696979979641,
+    "lift": 1.041761066923757
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy"
+    ],
+    "confidence": 0.8058252427184466,
+    "support": 0.05632846963013234,
+    "lift": 1.0302676747467514
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.7891891891891891,
+    "support": 0.0990838140481846,
+    "lift": 1.2170280170280168
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7625899280575539,
+    "support": 0.07193756362402443,
+    "lift": 1.141367454538147
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.7586206896551725,
+    "support": 0.0821174075330845,
+    "lift": 1.2510661289388882
+  },
+  {
+    "antecedents": [
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.7530364372469636,
+    "support": 0.3155751611808619,
+    "lift": 1.1612759709925702
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7525252525252525,
+    "support": 0.0505598914149983,
+    "lift": 1.1263036664255557
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.746268656716418,
+    "support": 0.08483203257550051,
+    "lift": 1.150839210540703
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.7452025586353944,
+    "support": 0.23719036308109942,
+    "lift": 1.1491951545256447
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.745,
+    "support": 0.0505598914149983,
+    "lift": 1.2286038052602126
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.7412587412587411,
+    "support": 0.07193756362402443,
+    "lift": 1.222433973413268
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Produce",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Dairy"
+    ],
+    "confidence": 0.7386759581881532,
+    "support": 0.07193756362402443,
+    "lift": 1.1391303237993131
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7253731343283581,
+    "support": 0.08245673566338649,
+    "lift": 1.0856651228368062
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Dairy"
+    ],
+    "confidence": 0.7233009708737863,
+    "support": 0.0505598914149983,
+    "lift": 1.1154201785269744
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7189189189189188,
+    "support": 0.09026128266033254,
+    "lift": 1.0760051061727036
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7160493827160495,
+    "support": 0.059043094672548355,
+    "lift": 1.0717102746897906
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.7159763313609468,
+    "support": 0.0821174075330845,
+    "lift": 1.0716009388119403
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.708108108108108,
+    "support": 0.08890397013912453,
+    "lift": 1.1677641827613845
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.7014925373134328,
+    "support": 0.07974211062097047,
+    "lift": 1.1568542291341277
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.6995884773662552,
+    "support": 0.05768578215134035,
+    "lift": 1.0788525603340418
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.6867469879518073,
+    "support": 0.13539192399049882,
+    "lift": 1.0278534146744418
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.683127572016461,
+    "support": 0.05632846963013234,
+    "lift": 1.126567965714891
+  },
+  {
+    "antecedents": [
+      "Meat"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.6749116607773852,
+    "support": 0.19443501866304716,
+    "lift": 1.0101394943173967
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.6717791411042945,
+    "support": 0.1486257210722769,
+    "lift": 1.0359671003842783
+  },
+  {
+    "antecedents": [
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "confidence": 0.6629464285714285,
+    "support": 0.2015609093993892,
+    "lift": 1.0223459576138145
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce",
+      "Dairy"
+    ],
+    "confidence": 0.654054054054054,
+    "support": 0.0821174075330845,
+    "lift": 1.308552136658043
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.6448339483394834,
+    "support": 0.23719036308109942,
+    "lift": 1.0634167015984652
+  },
+  {
+    "antecedents": [
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.6380566801619434,
+    "support": 0.2673905666779776,
+    "lift": 1.0522400875418283
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce",
+      "Dairy"
+    ],
+    "confidence": 0.6328358208955224,
+    "support": 0.07193756362402443,
+    "lift": 1.2661012655662625
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce"
+    ],
+    "confidence": 0.6212765957446809,
+    "support": 0.1486257210722769,
+    "lift": 1.0245675028872827
+  },
+  {
+    "antecedents": [
+      "Meat",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce",
+      "Dairy"
+    ],
+    "confidence": 0.6131687242798354,
+    "support": 0.0505598914149983,
+    "lift": 1.226753720606025
+  },
+  {
+    "antecedents": [
+      "Beverages"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry",
+      "Produce"
+    ],
+    "confidence": 0.5659919028340081,
+    "support": 0.23719036308109942,
+    "lift": 1.132368050001237
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce",
+      "Dairy"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.5525114155251142,
+    "support": 0.0821174075330845,
+    "lift": 1.3184219769655963
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Pantry"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.5364806866952789,
+    "support": 0.08483203257550051,
+    "lift": 1.2801688936769124
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Produce",
+      "Dairy"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.531328320802005,
+    "support": 0.07193756362402443,
+    "lift": 1.2678741387882662
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.502835538752363,
+    "support": 0.09026128266033254,
+    "lift": 1.1998836702050313
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4915824915824916,
+    "support": 0.0990838140481846,
+    "lift": 1.1730312572417836
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.48665620094191514,
+    "support": 0.3155751611808619,
+    "lift": 1.16127597099257
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4842883548983364,
+    "support": 0.08890397013912453,
+    "lift": 1.1556257343201597
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.47848537005163516,
+    "support": 0.09433322022395657,
+    "lift": 1.1417784498317156
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4747474747474747,
+    "support": 0.07974211062097047,
+    "lift": 1.1328589539115854
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4745417515274949,
+    "support": 0.23719036308109942,
+    "lift": 1.1323680500012367
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.4574669187145558,
+    "support": 0.0821174075330845,
+    "lift": 1.2827354990026603
+  },
+  {
+    "antecedents": [
+      "Dairy"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4559652928416486,
+    "support": 0.3566338649474041,
+    "lift": 1.0880402574933914
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Dairy"
+    ],
+    "consequents": [
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.4549356223175965,
+    "support": 0.07193756362402443,
+    "lift": 1.4293126641470755
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4524822695035461,
+    "support": 0.10824567356633864,
+    "lift": 1.0797289459327533
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.44731977818853974,
+    "support": 0.0821174075330845,
+    "lift": 1.2160990648723493
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.446319018404908,
+    "support": 0.0987444859178826,
+    "lift": 1.0650219815702542
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4418300653594771,
+    "support": 0.11469290804207669,
+    "lift": 1.0543102855177158
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4409625069949636,
+    "support": 0.2673905666779776,
+    "lift": 1.052240087541828
+  },
+  {
+    "antecedents": [
+      "Pantry"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.4392220421393841,
+    "support": 0.3678316932473702,
+    "lift": 1.0480869297042632
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.43399089529590285,
+    "support": 0.09704784526637258,
+    "lift": 1.0356041849692517
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.43029259896729777,
+    "support": 0.08483203257550051,
+    "lift": 1.1698083848308363
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.42828282828282827,
+    "support": 0.07193756362402443,
+    "lift": 1.1643445525364344
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Beverages"
+    ],
+    "confidence": 0.42408376963350786,
+    "support": 0.08245673566338649,
+    "lift": 1.0119634567691884
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.4141843971631206,
+    "support": 0.0990838140481846,
+    "lift": 1.1613714733013478
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.40797546012269936,
+    "support": 0.09026128266033254,
+    "lift": 1.109136237067892
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Dairy"
+    ],
+    "consequents": [
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.40740740740740744,
+    "support": 0.0821174075330845,
+    "lift": 1.2799889441680488
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.4044750430292599,
+    "support": 0.07974211062097047,
+    "lift": 1.2707760680247644
+  },
+  {
+    "antecedents": [
+      "Dairy"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.403470715835141,
+    "support": 0.3155751611808619,
+    "lift": 1.096889482994613
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.40184049079754597,
+    "support": 0.08890397013912453,
+    "lift": 1.1267592068319392
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.3911583659764969,
+    "support": 0.23719036308109942,
+    "lift": 1.0634167015984652
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.3816993464052288,
+    "support": 0.0990838140481846,
+    "lift": 1.037701082893182
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.3793626707132018,
+    "support": 0.08483203257550051,
+    "lift": 1.0637314848637542
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3773049645390071,
+    "support": 0.09026128266033254,
+    "lift": 1.1854133587382236
+  },
+  {
+    "antecedents": [
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.37723214285714285,
+    "support": 0.11469290804207669,
+    "lift": 1.057757492863939
+  },
+  {
+    "antecedents": [
+      "Pantry"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.37682333873581847,
+    "support": 0.3155751611808619,
+    "lift": 1.056611207663613
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Produce",
+      "Dairy"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.37343358395989973,
+    "support": 0.0505598914149983,
+    "lift": 1.2282463972431077
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages",
+      "Dairy"
+    ],
+    "confidence": 0.37116564417177916,
+    "support": 0.0821174075330845,
+    "lift": 1.1761560788970251
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "confidence": 0.36998254799301916,
+    "support": 0.07193756362402443,
+    "lift": 1.0374296564561631
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3687405159332321,
+    "support": 0.08245673566338649,
+    "lift": 1.1585056508051546
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3657770800627943,
+    "support": 0.23719036308109942,
+    "lift": 1.1491951545256447
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.3648881239242685,
+    "support": 0.07193756362402443,
+    "lift": 1.3129735057445902
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Pantry"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.3648068669527897,
+    "support": 0.05768578215134035,
+    "lift": 1.1998725858369097
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Produce",
+      "Beverages",
+      "Dairy"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.34620886981402005,
+    "support": 0.0821174075330845,
+    "lift": 1.1387026108726752
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.3432624113475178,
+    "support": 0.0821174075330845,
+    "lift": 1.2837491449760594
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3424836601307189,
+    "support": 0.08890397013912453,
+    "lift": 1.0760120963808406
+  },
+  {
+    "antecedents": [
+      "Dairy"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3418655097613883,
+    "support": 0.2673905666779776,
+    "lift": 1.0740699970861527
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.34079173838209986,
+    "support": 0.06718696979979641,
+    "lift": 1.1208853270223753
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce",
+      "Dairy"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.3401826484018265,
+    "support": 0.0505598914149983,
+    "lift": 1.180822455642147
+  },
+  {
+    "antecedents": [
+      "Meat"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3380447585394582,
+    "support": 0.09738717339667459,
+    "lift": 1.0620659951127753
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.33535353535353535,
+    "support": 0.05632846963013234,
+    "lift": 1.1029987373737373
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.33248730964467005,
+    "support": 0.08890397013912453,
+    "lift": 1.0935715418781726
+  },
+  {
+    "antecedents": [
+      "Dairy"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.33188720173535796,
+    "support": 0.25958601968103157,
+    "lift": 1.0915977494577007
+  },
+  {
+    "antecedents": [
+      "Pantry"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3318476499189627,
+    "support": 0.27790973871733965,
+    "lift": 1.0425959747453977
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.3289224952741021,
+    "support": 0.059043094672548355,
+    "lift": 1.141736859331895
+  },
+  {
+    "antecedents": [
+      "Bakery"
+    ],
+    "consequents": [
+      "Dairy",
+      "Pantry",
+      "Beverages"
+    ],
+    "confidence": 0.32589285714285715,
+    "support": 0.0990838140481846,
+    "lift": 1.0326948924731183
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.3247863247863248,
+    "support": 0.09026128266033254,
+    "lift": 1.0682425213675213
+  },
+  {
+    "antecedents": [
+      "Bakery"
+    ],
+    "consequents": [
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.3247767857142857,
+    "support": 0.0987444859178826,
+    "lift": 1.0203807969083154
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat"
+    ],
+    "consequents": [
+      "Dairy",
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.3216995447647951,
+    "support": 0.07193756362402443,
+    "lift": 1.2031073076419432
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Beverages"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.32159847764034255,
+    "support": 0.11469290804207669,
+    "lift": 1.057757492863939
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Meat",
+      "Dairy"
+    ],
+    "consequents": [
+      "Bakery",
+      "Produce"
+    ],
+    "confidence": 0.31974248927038623,
+    "support": 0.0505598914149983,
+    "lift": 1.4452164353985095
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery"
+    ],
+    "consequents": [
+      "Pantry",
+      "Produce",
+      "Beverages"
+    ],
+    "confidence": 0.31633986928104574,
+    "support": 0.0821174075330845,
+    "lift": 1.1382827774984638
+  },
+  {
+    "antecedents": [
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.3159509202453988,
+    "support": 0.06990159484221242,
+    "lift": 1.096710673690448
+  },
+  {
+    "antecedents": [
+      "Produce"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.31418918918918914,
+    "support": 0.2524601289446895,
+    "lift": 1.090595454111355
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry",
+      "Beverages"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.31397849462365596,
+    "support": 0.0990838140481846,
+    "lift": 1.0326948924731183
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Pantry"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.3108320251177394,
+    "support": 0.2015609093993892,
+    "lift": 1.0223459576138147
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Bakery"
+    ],
+    "confidence": 0.31023454157782515,
+    "support": 0.0987444859178826,
+    "lift": 1.0203807969083154
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Produce",
+      "Beverages"
+    ],
+    "consequents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "confidence": 0.30710659898477155,
+    "support": 0.0821174075330845,
+    "lift": 1.2837491449760594
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Bakery",
+      "Produce"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.3068391866913124,
+    "support": 0.05632846963013234,
+    "lift": 1.065082547914367
+  },
+  {
+    "antecedents": [
+      "Beverages",
+      "Produce"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.30597014925373134,
+    "support": 0.09738717339667459,
+    "lift": 1.0620659951127753
+  },
+  {
+    "antecedents": [
+      "Pantry",
+      "Produce",
+      "Beverages",
+      "Dairy"
+    ],
+    "consequents": [
+      "Meat"
+    ],
+    "confidence": 0.3032904148783977,
+    "support": 0.07193756362402443,
+    "lift": 1.0527642551786078
+  },
+  {
+    "antecedents": [
+      "Dairy"
+    ],
+    "consequents": [
+      "Pantry",
+      "Beverages",
+      "Produce"
+    ],
+    "confidence": 0.30325379609544467,
+    "support": 0.23719036308109942,
+    "lift": 1.0911952833861729
+  },
+  {
+    "antecedents": [
+      "Dairy",
+      "Meat",
+      "Produce"
+    ],
+    "consequents": [
+      "Pantry",
+      "Bakery"
+    ],
+    "confidence": 0.301010101010101,
+    "support": 0.0505598914149983,
+    "lift": 1.2582649186904507
+  }
+]
