@@ -56,7 +56,7 @@ class AssociationEngine:
         te_ary = te.fit(baskets).transform(baskets)
         df = pd.DataFrame(te_ary, columns=te.columns_)
         
-        print(f"✅ Prepared {len(df)} transactions with {len(df.columns)} unique items")
+        print(f" Prepared {len(df)} transactions with {len(df.columns)} unique items")
         
         return df
     
@@ -67,7 +67,7 @@ class AssociationEngine:
         Args:
             baskets: List of baskets
         """
-        print(f"\n🤖 Training FP-Growth Association Rules...")
+        print(f"\n Training FP-Growth Association Rules...")
         print(f"   Min Support: {self.min_support}")
         print(f"   Min Confidence: {self.min_confidence}")
         print(f"   Min Lift: {self.min_lift}")
@@ -76,17 +76,17 @@ class AssociationEngine:
         df = self.prepare_data(baskets)
         
         # Run FP-Growth to find frequent itemsets
-        print("\n⚙️  Running FP-Growth algorithm...")
+        print("\n  Running FP-Growth algorithm...")
         self.frequent_itemsets = fpgrowth(
             df,
             min_support=self.min_support,
             use_colnames=True
         )
         
-        print(f"✅ Found {len(self.frequent_itemsets)} frequent itemsets")
+        print(f" Found {len(self.frequent_itemsets)} frequent itemsets")
         
         # Generate association rules
-        print("\n⚙️  Generating association rules...")
+        print("\n  Generating association rules...")
         self.rules_df = association_rules(
             self.frequent_itemsets,
             metric="confidence",
@@ -99,7 +99,7 @@ class AssociationEngine:
         # Sort by confidence (descending)
         self.rules_df = self.rules_df.sort_values('confidence', ascending=False)
         
-        print(f"✅ Generated {len(self.rules_df)} association rules")
+        print(f" Generated {len(self.rules_df)} association rules")
         
         # Build fast lookup dictionary
         self._build_lookup_dict()
@@ -112,7 +112,7 @@ class AssociationEngine:
         Build dictionary for fast rule lookup
         Format: {antecedent_item: [(consequent, confidence, lift), ...]}
         """
-        print("\n🗂️  Building rule lookup dictionary...")
+        print("\n  Building rule lookup dictionary...")
         
         self.rules_dict = {}
         
@@ -137,11 +137,11 @@ class AssociationEngine:
                         'lift': row['lift']
                     })
         
-        print(f"✅ Built lookup dict with {len(self.rules_dict)} antecedent items")
+        print(f" Built lookup dict with {len(self.rules_dict)} antecedent items")
     
     def _print_top_rules(self, n: int = 10):
         """Print top N rules"""
-        print(f"\n🏆 TOP {n} ASSOCIATION RULES:\n")
+        print(f"\n TOP {n} ASSOCIATION RULES:\n")
         
         for i, (_, row) in enumerate(self.rules_df.head(n).iterrows(), 1):
             antecedents = ', '.join(list(row['antecedents']))
@@ -268,7 +268,7 @@ class AssociationEngine:
         self.min_confidence = model_data['min_confidence']
         self.min_lift = model_data['min_lift']
         
-        print(f"✅ Loaded association rules from {model_path}")
+        print(f" Loaded association rules from {model_path}")
         print(f"   Rules: {len(self.rules_df)}")
         print(f"   Frequent itemsets: {len(self.frequent_itemsets)}")
 
@@ -276,12 +276,12 @@ class AssociationEngine:
 # Example usage and testing
 if __name__ == "__main__":
     # Load preprocessed baskets
-    print("📂 Loading preprocessed baskets...")
+    print(" Loading preprocessed baskets...")
     with open("data/processed_baskets.pkl", 'rb') as f:
         data = pickle.load(f)
     
     baskets = data['baskets']
-    print(f"✅ Loaded {len(baskets)} baskets")
+    print(f" Loaded {len(baskets)} baskets")
     
     # Initialize and train
     engine = AssociationEngine(
@@ -304,7 +304,7 @@ if __name__ == "__main__":
     ]
     
     for basket in test_baskets:
-        print(f"\n📦 Current Basket: {basket}")
+        print(f"\n Current Basket: {basket}")
         recommendations = engine.get_recommendations(basket, max_items=3)
         
         if recommendations:

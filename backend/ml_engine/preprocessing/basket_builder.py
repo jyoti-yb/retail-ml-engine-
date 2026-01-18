@@ -50,7 +50,7 @@ class BasketBuilder:
             ['transaction_id', 'timestamp']
         )
         
-        print(f"✅ Loaded {len(self.transactions_df)} order lines")
+        print(f" Loaded {len(self.transactions_df)} order lines")
         print(f"   Unique transactions: {self.transactions_df['transaction_id'].nunique()}")
         print(f"   Unique products: {self.transactions_df['product_name'].nunique()}")
         
@@ -88,7 +88,7 @@ class BasketBuilder:
             List of baskets, where each basket is a list of items
             Example: [['Rice', 'Dal', 'Oil'], ['Bread', 'Butter'], ...]
         """
-        print("\n🛒 Building baskets...")
+        print("\n Building baskets...")
         
         # Group by transaction_id
         grouped = self.transactions_df.groupby('transaction_id')
@@ -151,7 +151,7 @@ class BasketBuilder:
             if len(unique_sequence) >= 2:
                 self.sequences.append(unique_sequence)
         
-        print(f"✅ Built {len(self.sequences)} sequences")
+        print(f" Built {len(self.sequences)} sequences")
         print(f"   Avg sequence length: {np.mean([len(s) for s in self.sequences]):.2f}")
         
         return self.sequences
@@ -200,7 +200,7 @@ class BasketBuilder:
         with open(output_path / "processed_baskets.pkl", 'wb') as f:
             pickle.dump(data, f)
         
-        print(f"\n💾 Saved preprocessed data to {output_dir}/processed_baskets.pkl")
+        print(f"\n Saved preprocessed data to {output_dir}/processed_baskets.pkl")
     
     def load(self, input_path: str = "data/processed_baskets.pkl"):
         """
@@ -213,7 +213,7 @@ class BasketBuilder:
         self.sequences = data['sequences']
         self.category_map = data['category_map']
         
-        print(f"✅ Loaded preprocessed data from {input_path}")
+        print(f" Loaded preprocessed data from {input_path}")
         print(f"   Baskets: {len(self.baskets)}")
         print(f"   Sequences: {len(self.sequences)}")
         
@@ -244,7 +244,7 @@ if __name__ == "__main__":
         print(f"   {key}: {value}")
     
     # Print sample baskets
-    print("\n🛒 SAMPLE BASKETS:")
+    print("\n SAMPLE BASKETS:")
     for i, basket in enumerate(baskets[:5], 1):
         print(f"   {i}. {basket}")
     
