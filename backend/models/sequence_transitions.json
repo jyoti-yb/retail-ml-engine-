@@ -1,0 +1,176 @@
+[
+  {
+    "from": "Dairy",
+    "to": "Pantry",
+    "probability": 0.51135273425008,
+    "count": 1599
+  },
+  {
+    "from": "Pantry",
+    "to": "Produce",
+    "probability": 0.49486141388975396,
+    "count": 1589
+  },
+  {
+    "from": "Produce",
+    "to": "Pantry",
+    "probability": 0.4770920106020447,
+    "count": 1260
+  },
+  {
+    "from": "Bakery",
+    "to": "Pantry",
+    "probability": 0.4704641350210971,
+    "count": 223
+  },
+  {
+    "from": "Dairy",
+    "to": "Produce",
+    "probability": 0.349216501439079,
+    "count": 1092
+  },
+  {
+    "from": "Pantry",
+    "to": "Dairy",
+    "probability": 0.3379009654313298,
+    "count": 1085
+  },
+  {
+    "from": "Meat",
+    "to": "Dairy",
+    "probability": 0.30517711171662126,
+    "count": 224
+  },
+  {
+    "from": "Beverages",
+    "to": "Dairy",
+    "probability": 0.3041191936897458,
+    "count": 347
+  },
+  {
+    "from": "Beverages",
+    "to": "Produce",
+    "probability": 0.2953549517966696,
+    "count": 337
+  },
+  {
+    "from": "Produce",
+    "to": "Dairy",
+    "probability": 0.2775463839454752,
+    "count": 733
+  },
+  {
+    "from": "Meat",
+    "to": "Beverages",
+    "probability": 0.2724795640326976,
+    "count": 200
+  },
+  {
+    "from": "Beverages",
+    "to": "Pantry",
+    "probability": 0.2401402278702892,
+    "count": 274
+  },
+  {
+    "from": "Bakery",
+    "to": "Dairy",
+    "probability": 0.22573839662447256,
+    "count": 107
+  },
+  {
+    "from": "Meat",
+    "to": "Produce",
+    "probability": 0.22343324250681199,
+    "count": 164
+  },
+  {
+    "from": "Meat",
+    "to": "Pantry",
+    "probability": 0.19618528610354224,
+    "count": 144
+  },
+  {
+    "from": "Beverages",
+    "to": "Bakery",
+    "probability": 0.15249780893952672,
+    "count": 174
+  },
+  {
+    "from": "Bakery",
+    "to": "Meat",
+    "probability": 0.12658227848101267,
+    "count": 60
+  },
+  {
+    "from": "Pantry",
+    "to": "Beverages",
+    "probability": 0.12083463095608844,
+    "count": 388
+  },
+  {
+    "from": "Produce",
+    "to": "Beverages",
+    "probability": 0.1200302915562287,
+    "count": 317
+  },
+  {
+    "from": "Bakery",
+    "to": "Produce",
+    "probability": 0.10548523206751055,
+    "count": 50
+  },
+  {
+    "from": "Produce",
+    "to": "Bakery",
+    "probability": 0.07875804619462325,
+    "count": 208
+  },
+  {
+    "from": "Dairy",
+    "to": "Bakery",
+    "probability": 0.07515190278221938,
+    "count": 235
+  },
+  {
+    "from": "Bakery",
+    "to": "Beverages",
+    "probability": 0.07172995780590717,
+    "count": 34
+  },
+  {
+    "from": "Dairy",
+    "to": "Beverages",
+    "probability": 0.05532459226095299,
+    "count": 173
+  },
+  {
+    "from": "Produce",
+    "to": "Meat",
+    "probability": 0.046573267701628174,
+    "count": 123
+  },
+  {
+    "from": "Pantry",
+    "to": "Bakery",
+    "probability": 0.03830582373092495,
+    "count": 123
+  },
+  {
+    "from": "Dairy",
+    "to": "Meat",
+    "probability": 0.008954269267668692,
+    "count": 28
+  },
+  {
+    "from": "Pantry",
+    "to": "Meat",
+    "probability": 0.008097165991902834,
+    "count": 26
+  },
+  {
+    "from": "Beverages",
+    "to": "Meat",
+    "probability": 0.007887817703768623,
+    "count": 9
+  }
+]
